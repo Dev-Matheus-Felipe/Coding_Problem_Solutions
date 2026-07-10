@@ -24,8 +24,7 @@ int main(){
         for(int v = 0; v < N; v++)
             up[v][j] = up[ up[v][j-1] ][j-1];
 
-    int X;
-    long long K;
+    int X; K;
     while(Q--){
         cin >> X >> K;
         --X;

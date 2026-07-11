@@ -7,7 +7,7 @@ struct Vertice {
     int to, time = -1;
     char color = 'B';
 };
-
+  
 void DFS_VISITA(vector<Vertice>& G, int u){
     G[u].color = 'C';
     s.push(u);

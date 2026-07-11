@@ -9,7 +9,6 @@ int main(){
     while((1 << LOG) <= N) LOG++;
 
     vector<vector<int>> up(N, vector<int>(LOG, -1));
-
     for(int i = 1; i < N; i++){
         cin >> up[i][0];
         up[i][0]--;

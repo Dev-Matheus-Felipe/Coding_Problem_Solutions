@@ -15,6 +15,7 @@ int main(){
 
         map<int, int> pos;
         int j = 1;
+        
         for(int n: nums){
             if(!pos[n]) pos[n] = j;
             j++;
